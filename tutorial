@@ -1,0 +1,8 @@
+vscode cmake project debug 教程
+step 1：vscode 安装c/c++、cmeke tools插件
+step 2: 安装cmake、make（编译工具）、gcc（编译器）、gdb（debuger）(已安装可忽略此步骤)
+step 3: Ctrl+Shift+P，选择CMake: Select a Kit，扫描工具箱选择编译器
+step 4: Ctrl+Shift+P，选择CMake: Select Variant，选择debug变量
+step 5: Ctrl+Shift+P，选择CMake: Configure，生成配置文件
+step 6：Ctrl+Shift+P，选择CMake: Build，或者在vscode底端点击Build按钮，编译项目
+step 7：打开需要debug的文件，并设置断点，Ctrl+Shift+P，选择CMake: Debug
